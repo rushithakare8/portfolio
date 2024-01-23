@@ -1,10 +1,9 @@
-# Hi this is my Portfolio website i tried to make them Unique with some additional animations i use
+# Hi this is my Portfolio website 
+i tried to make them Unique with some additional animations i use
 
-# using css Animation Scroll() method.
+using css Animation Scroll() method. Alluna Google font is used.
 
-# Alluna Google font is used.
-
-# to Run Project use the command that _NPM RUN DEV_
+to Run Project use the command that _NPM RUN DEV_
 
 # React + Vite
 
