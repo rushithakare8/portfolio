@@ -3,19 +3,19 @@ import ReactDOM from "react-dom/client";
 // import App from "./App.jsx";
 import "./index.css";
 
-import Colorchange from "./component/Practical/ColorChange";
+import Colorchange from "./component/Practical/ColorChange.jsx";
 import {
   Route,
   RouterProvider,
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import Layout from "./Layout";
-import Home from "./component/Home/Home";
-import LoginPage from "./component/Practical/LoginPage";
-import Register from "./component/Practical/Register";
-import About from "./component/About/About";
-import Contact from "./component/Contact/Contact";
+import Layout from "./Layout.jsx";
+import Home from "./component/Home/Home.jsx";
+import LoginPage from "./component/Practical/LoginPage.jsx";
+import Register from "./component/Practical/Register.jsx";
+import About from "./component/About/About.jsx";
+import Contact from "./component/Contact/Contact.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
