@@ -146,15 +146,16 @@
   .back-img{
     background-image: url("/public/images/pexels-moose-photos-1037995.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     animation-name: rotateAnimation;
     animation-duration: 1ms; /* Firefox requires this to apply the animation */
-    animation-direction: alternate;
     animation-timeline: scroll(root);
+    /* animation-range: 250px 500px; */
   }
   
   @keyframes rotateAnimation {
     from {
-      transform: scale(1);
+      transform:scale(1) ;
     }
     to {
       transform: scale(2);

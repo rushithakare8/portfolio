@@ -1,0 +1,28 @@
+img{
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: 250px 600px;
+    scale: 0.8;
+    opacity: 0;
+}
+
+@keyframes fade-in {
+    to {
+      scale: 1; 
+      opacity: 1;
+    }
+  }
+
+  li{
+    background-color: black;
+    background-size: contain;
+    padding: 5px;
+    color: white;
+    gap: 2;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: 250px 600px;
+    scale: 0.8;
+    opacity: 0;
+  }
+
