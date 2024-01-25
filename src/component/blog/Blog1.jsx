@@ -27,7 +27,7 @@ const Blog1 = () => {
             quas soluta fugit repudiandae nesciunt
           </p>
           <img
-            src="./public/images/programmer.jpg"
+            src="/public/images/programmer.jpg"
             className="xl:h-96 w-full pt-10"
             alt=""
           />
@@ -50,7 +50,7 @@ const Blog1 = () => {
             quas soluta fugit repudiandae nesciunt
           </p>
           <img
-            src="./public/images/programmer.jpg"
+            src="/public/images/programmer.jpg"
             className="xl:h-96 w-full pt-10"
             alt=""
           />
