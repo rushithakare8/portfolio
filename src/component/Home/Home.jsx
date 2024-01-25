@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./home.css";
 import { useState } from "react";
 import { useEffect } from "react";
+import Blog1 from "../blog/Blog1";
 
 const Home = ({ profilePic }) => {
   // console.log(props);
@@ -65,7 +66,8 @@ const Home = ({ profilePic }) => {
           </div>
         </div>
       </div>
-      <div className="container abc">
+      <Blog1 />
+      <div className="container h-auto w-full flex flex-wrap justify-center items-center">
         <div className="parent card2">
           <Link to="login">
             <div className="card">
